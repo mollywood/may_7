@@ -26,7 +26,13 @@ class Todo:
         self.tasks.setdefault(priority, []).append(task)
         print(self.tasks)
 
-    #def rm_task(self, task):
+    #def rm_task(self, task, priority):
+    #    self.tasks.priority.remove(task)
+    #    print(self.tasks)
+    #def rm_task(self, task, priority):
+    #    for i in self.tasks:
+    #        while task in self.tasks.priority[i]:
+    #            self.tasks.priority[i].remove(task)
 
 
 
@@ -34,3 +40,4 @@ molly = Todo("Molly")
 molly.add_task("go to the bank", "high")
 molly.add_task("buy frozen lunches at Walmart", "high")
 molly.add_task("nail salon", "low")
+#molly.rm_task("go to the bank", "high")
